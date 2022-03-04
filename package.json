@@ -1,0 +1,43 @@
+{
+  "name": "@blackprint/sketch",
+  "description": "Blackprint sketch for browser",
+  "version": "0.6.3",
+  "author": "Blackprint",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Blackprint/Blackprint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Blackprint/Blackprint/issues"
+  },
+  "scripts": {
+    "start": "gulp",
+    "compile": "gulp compile",
+    "test": "jest --verbose ./tests/"
+  },
+  "main": "dist/_entry.js",
+  "module": "dist/_entry.mjs",
+  "homepage": "https://blackprint.github.io/",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/parser": "^7.16.4",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/plugin-syntax-top-level-await": "^7.14.5",
+    "@babel/preset-env": "^7.16.4",
+    "gulp": "^4.0.2",
+    "jest": "^27.4",
+    "node-notifier": "^9.0.0",
+    "scarletsframe-compiler": "0.6.20"
+  },
+  "keywords": [
+    "visual-programming",
+    "flow-based-programming",
+    "blackprint",
+    "html5",
+    "diagram"
+  ],
+  "dependencies": {
+    "scarletsframe": "0.35.x"
+  }
+}
